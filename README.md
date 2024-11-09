@@ -23,11 +23,12 @@ Struktur program mencakup beberapa folder dan file sebagai berikut:
 
 ### Alur Program
 
-1. **Pembagian Data**: Membagi dataset menjadi data latih dan data uji.
-2. **Ekstraksi Fitur**: Mengekstrak fitur tekstur dan warna dari citra.
-3. **Pelatihan Model**: Melatih model Naive Bayes menggunakan fitur yang telah diekstraksi.
-4. **Klasifikasi**: Menggunakan model yang telah dilatih untuk mengklasifikasikan citra baru berdasarkan fitur tekstur dan warna.
-5. **Evaluasi Model**: Menggunakan **`confus.m`** untuk menghasilkan matriks kebingungan, yang membantu dalam menilai kinerja model.
+1. **Mengunduh Dataset**: Unduh dataset dari link [Google Drive ini](https://drive.google.com/drive/folders/1jNO0aJZd_5BQ1ojhbP7jVRTSMqFqX1Tz) dan letakkan dalam folder `Dataset`.
+2. **Pembagian Data**: Membagi dataset menjadi data latih dan data uji.
+3. **Ekstraksi Fitur**: Mengekstrak fitur tekstur dan warna dari citra.
+4. **Pelatihan Model**: Melatih model Naive Bayes menggunakan fitur yang telah diekstraksi.
+5. **Klasifikasi**: Menggunakan model yang telah dilatih untuk mengklasifikasikan citra baru berdasarkan fitur tekstur dan warna.
+6. **Evaluasi Model**: Menggunakan **`confus.m`** untuk menghasilkan matriks kebingungan, yang membantu dalam menilai kinerja model.
 
 ## Antarmuka Pengguna Grafis (GUI)
 
